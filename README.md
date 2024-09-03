@@ -1,6 +1,4 @@
 # Discord-Ticket-RP-BOT
-```markdown
-# Discord-Ticket-RP-BOT
 
 Ciao a tutti! 😎 Questo è un bot 🔥 che ho creato per gestire i ticket su Discord in modo super easy e organizzato. Perfetto per server RP o qualsiasi community che vuole tenere tutto sotto controllo! 🎮💬
 
@@ -17,4 +15,4 @@ Ciao a tutti! 😎 Questo è un bot 🔥 che ho creato per gestire i ticket su D
 4. Avvia il bot e lascia che faccia la magia per te! ✨
 
 Se sei un admin di server RP, questo bot ti semplifica la vita. Vai a provarlo! 💥
-```
+
