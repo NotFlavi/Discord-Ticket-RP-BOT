@@ -77,7 +77,7 @@ async def update_ticket_embed():
         color=discord.Color.blue()
     )
     embed.set_thumbnail(url="https://example.com/image.png")
-    embed.set_footer(text="Usa i pulsanti sottostanti per aprire i ticket - Bot ideato da Barbara D'urso COL CUOREEEEE")
+    embed.set_footer(text="Usa i pulsanti sottostanti per aprire i ticket. - Bot ideato da KNS Exposed Developers")
 
     view = View()
     buttons = [
@@ -135,7 +135,7 @@ async def crea_ticket(interaction: discord.Interaction, category_name: str, embe
         description=embed_desc,
         color=discord.Color.green()
     )
-    embed.set_footer(text="Premi il pulsante qui sotto per chiudere il ticket.")
+    embed.set_footer(text="Premi il pulsante qui sotto per chiudere il ticket. - Bot ideato da KNS Exposed Developers")
 
     button = Button(label="Chiudi Ticket", custom_id="chiudi_ticket")
     view = View()
@@ -217,11 +217,18 @@ async def salva_transcript(channel: discord.TextChannel):
     with open(transcript_file_path, 'w', encoding='utf-8') as f:
         async for message in channel.history(limit=None, oldest_first=True):
             f.write(f"[{message.created_at}] {message.author}: {message.content}\n")
+            f.write("BOT DEVELOPED BY KNS EXPOSED TEAM")
     return transcript_file_path
 
 @bot.event
 async def on_ready():
     print(f"{bot.user} è online e pronto per l'uso!")
+    print(f"JOIN KNS EXPOSED & LEAKS")
+    print(f"JOIN KNS EXPOSED & LEAKS")
+    print(f"JOIN KNS EXPOSED & LEAKS")
+    print(f"JOIN KNS EXPOSED & LEAKS")
+    print(f"JOIN KNS EXPOSED & LEAKS")
+                    
     await update_ticket_embed()
 
 # Sostituisci con il tuo token reale
